@@ -1,11 +1,11 @@
 {
-  "name": "@nxp-ccoe-cdp-bblocks2",
+  "name": "@nxp-ccoe-cdp-bblocks2/bblock1",
   "version": "0.1.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc && tscp",
-    "watch": "tsc -w && tscp -w",
+    "build": "tsc",
+    "watch": "tsc -w",
     "test": "jest"
   },
   "engines": {
@@ -18,8 +18,7 @@
     "constructs": "^10.0.0",
     "jest": "^29.3.1",
     "ts-jest": "^29.0.3",
-    "typescript": "~4.9.4",
-    "typescript-cp": "^0.1.7"
+    "typescript": "~4.9.4"
   },
   "peerDependencies": {
     "aws-cdk-lib": "^2.61.0",
